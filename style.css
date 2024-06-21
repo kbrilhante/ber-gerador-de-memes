@@ -1,0 +1,84 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #d33033;
+	text-align: center;
+	color: #FFCBDD;
+	font-size: calc(14px + 0.5vw);
+}
+
+h1 {
+	background: linear-gradient(#d33033, #ee7678, #d33033);
+	margin-top: 0;
+	padding: 20px;
+	text-shadow: 3px 3px 6px #821e20;
+}
+
+hr {
+	border-color: #FFCBDD;
+}
+
+.alfa-slab-one-regular {
+	font-family: "Alfa Slab One", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.poppins-extralight {
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+.poppins-regular {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.poppins-semibold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.btn {
+	font-size: calc(16px + 0.5vw);
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #ee7678;
+	color: #FFFFFF;
+	box-shadow: inset -3px -3px 6px #821e20;
+	transition: 100ms;
+}
+
+.btn:hover {
+	box-shadow: inset 3px 3px 6px #821e20;
+}
+
+.btn:active{
+	transform: translate(3px, 3px);
+}
+
+.inp {
+	font-size: calc(14px + 0.5vw);
+}
+
+.inp:focus{
+	background-color: #821e20;
+	color: #ffffff;
+}
+
+/* .inp:hover{
+	background-color: #ee7678;
+	color: #ffffff;
+} */
